@@ -1,0 +1,169 @@
+*{
+    margin:0px;
+    padding:0px;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .cards{
+    width:90%;
+   background-color:lightgray;
+    border-radius: 5px;
+    margin:40px;
+    box-shadow: 4px 4px 10px black;
+    /* height: 200px; */
+  }
+  img{
+    width:100%;
+    height: 300px;
+    border-top-left-radius: 5px;
+    border-top-left-radius:5px;
+  }
+  .title{
+    text-align:left;
+    padding: 5px;
+    
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+ .award-align{
+   display:flex;
+ }
+
+  .des{
+    font-size: 12px;
+    background-color: rgba(255, 255, 255, 0.644);
+    display: grid;
+    text-align: center;
+    padding: 19px;
+    border-radius: 50%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+   }
+  a:link{
+    text-decoration:none;
+    
+    
+  }
+ .stars{
+   display: flex;
+ }
+  .rating-right{
+    padding-left: 120px;
+  }
+
+  .rating-stars{
+    font-size: 20px;
+    padding-left: 5px;
+  }
+  .price{
+    display: flex;
+    font-size: 20px;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 55px;
+   
+    /* padding-right: 10px; */
+  }
+.phone{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
+  
+}
+.phone .fa-phone{
+  padding-left: 30px;
+}
+
+.phone .phone_det{
+  padding-right: 66px;
+  font-size: 13px;
+}
+
+
+  .ranking{
+    margin: 18px 9px;
+    font-size: 15px;
+    float: right;
+    padding-right: 153px;
+    
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+ 
+    
+  }
+
+  .address-field{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+   }
+
+  .address{
+   /* margin:10px; */
+   font-size: 14px;
+   letter-spacing: 1px;
+   padding-left: 18px;
+   font-family: Arial, Helvetica, sans-serif;
+   /*background-color:#9ab973;*/
+   /* padding-right: 170px; */
+  }
+ 
+ .fa-map-marker-alt{
+  padding-left: 30px;
+  
+
+ }
+  .fa-trophy{
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .links{
+    padding-bottom: 10px;
+    padding-left: 11px;
+  }
+  .right{
+    float: right;
+    padding-right: 13px;
+  }
+  
+  .stars{
+    padding-left: 10px;
+    margin-top: 15px;
+  }
+  .checked{
+    color:orange;
+  }
+  .award{
+    font-size: 24px;
+    margin-top:18px;
+    margin-left: 6px;
+    
+  }
+  button{
+    margin-top:30px;
+    margin-bottom:30px;
+    background-color:rgba(255, 255, 255, 0.644) ;
+    border:1px solid black;
+    padding:5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    font-style: obliquezz;
+  }
+  button:hover{
+    background-color:#262626;
+    color:white;
+    transition: .5s;
+    
+  }
+
+  .links{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 70px;
+  }
+
+
+  
